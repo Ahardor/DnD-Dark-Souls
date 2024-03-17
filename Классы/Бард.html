@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Бард</title>
+  <style>
+    html {
+      font-family: "Arial";
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<p>Неважно, кем является бард: учёным, скальдом или проходимцем; он
+плетёт магию из слов и музыки, вдохновляя союзников, деморализуя
+противников, манипулируя сознанием, создавая иллюзии, и даже исцеляя
+раны.</p>
+<hr />
+<h2 id="уровни">Уровни</h2>
+<table>
+<thead>
+<tr class="header">
+<th>LVL</th>
+<th>Бонус <br>мастерства</th>
+<th>Умения</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>+2</td>
+<td>Вдохновение барда</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>+2</td>
+<td><br></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>+2</td>
+<td>Песнь отдыха</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>+2</td>
+<td>Вдохновение II</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>+3</td>
+<td>Источник вдохновения</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>+3</td>
+<td>Песнь отдыха II</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>+3</td>
+<td>Мастер на все руки</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>+3</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>+4</td>
+<td>Массовое вдохновение</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="умения">Умения</h2>
+<h4 id="вдохновение-барда">Вдохновение барда</h4>
+<ul>
+<li>Своими словами или музыкой вы можете вдохновлять других.</li>
+<li>Для этого вы должны бонусным действием выбрать одно существо,
+отличное от вас, в пределах 60 футов, которое может вас слышать.</li>
+<li>Это существо получает кость бардовского вдохновения — к6.</li>
+<li>Это существо может единожды бросить даннуб кость и прибавить
+результат к любому броску.</li>
+</ul>
+<h4 id="вдохновение-ii">Вдохновение II</h4>
+<ul>
+<li>Кость вдохновения меняется на К8</li>
+</ul>
+<h4 id="мастер-на-все-руки">Мастер на все руки</h4>
+<ul>
+<li>Вы можете добавлять двойной бонуса мастерства, ко всем проверкам
+характеристики, куда этот бонус еще не включён.</li>
+</ul>
+<h4 id="песнь-отдыха">Песнь отдыха</h4>
+<ul>
+<li>Вы с помощью успокаивающей музыки или речей можете помочь своим
+раненым союзникам восстановить их силы во время короткого отдыха.</li>
+<li>Если вы или любые союзные существа, способные слышать ваше
+исполнение, восстанавливаете хиты в конце короткого отдыха, используя
+Кости Хитов, каждое потратившее Кость Хитов существо восстанавливает
+дополнительно 1к6 хитов.</li>
+</ul>
+<h4 id="песнь-отдыха-ii">Песнь отдыха II</h4>
+<ul>
+<li>Кость песни отдыха меняется на К10</li>
+</ul>
+<h4 id="источник-вдохновения">Источник вдохновения</h4>
+<ul>
+<li>Ваше великолепное исполнение послужило для вас вдохновением для
+написания новой песни, вы неподражаемы!</li>
+<li>Совершите проверку мудрости, при успешном результате вы можете
+вдохновить ещё одно существо за ход.</li>
+</ul>
+<h4 id="массовое-вдохновение">Массовое вдохновение</h4>
+<ul>
+<li>Вы настолько перисоплнились в искусстве песни, что этот мир вам
+абсолютно понятен.</li>
+<li>Вы возносите песню, и все, кто её слышит, получают положительные или
+негативные эффекты, в зависимости от отношения к вам.</li>
+<li>Друзья получают вдохновение</li>
+<li>Враги получают -3 к классу доспеха</li>
+<li>Длительность - 2 хода</li>
+</ul>
+</body>
+</html>
